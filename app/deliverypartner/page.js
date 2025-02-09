@@ -4,7 +4,7 @@ import React from 'react'
 import { useState,useEffect } from 'react'
 import Deliveryheader from '../components/Deliveryheader'
 import Footer from '../components/Footer'
-const page = () => {
+const Deliverypartner = () => {
     const [loginmobile, setloginmobile] = useState('')
     const [loginpassword, setloginpassword] = useState('')
     //ss
@@ -176,4 +176,4 @@ const page = () => {
       );
 }
 
-export default page
+export default Deliverypartner

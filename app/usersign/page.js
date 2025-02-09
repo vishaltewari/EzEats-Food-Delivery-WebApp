@@ -5,7 +5,7 @@ import Customerheader from '../components/Customerheader'
 import Footer from '../components/Footer'
 import Usersignup from '../components/Usersignup'
 import Userlogin from '../components/Userlogin'
-const page = (props) => {
+const UserSign = (props) => {
   const [login, setlogin] = useState(true)
   return (
     <div >
@@ -27,4 +27,4 @@ const page = (props) => {
   )
 }
 
-export default page
+export default UserSign

@@ -4,7 +4,7 @@ import { useState,useEffect } from 'react'
 import Customerheader from '../components/Customerheader'
 import Footer from '../components/Footer'
 
-const page = () => {
+const MyProfile = () => {
     const [myorders, setmyorders] = useState([])
     
     const getmyorders=async() => {

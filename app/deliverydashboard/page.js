@@ -3,7 +3,7 @@ import React from 'react'
 import Deliveryheader from '../components/Deliveryheader'
 import { useEffect,useState } from 'react'
 import { useRouter } from 'next/navigation'
-const page = () => {
+const Deliverydashboard = () => {
   
   const router=useRouter()
   const [myorders, setmyorders] = useState([])
@@ -50,4 +50,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Deliverydashboard
