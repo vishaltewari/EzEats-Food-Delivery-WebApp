@@ -108,4 +108,4 @@ const Order = () => {
   );
 };
 
-export default Cart;
+export default Order;
