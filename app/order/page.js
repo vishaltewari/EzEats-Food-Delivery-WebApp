@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import { DELIVERY_CHARGES, TAX } from '../lib/constant';
 import { useRouter } from 'next/navigation';
 
-const Cart = () => {
+const Order = () => {
   const router = useRouter();
   const [userstorage, setUserStorage] = useState(null);
   const [cartstorage, setCartStorage] = useState([]);
