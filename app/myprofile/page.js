@@ -40,4 +40,4 @@ const MyProfile = () => {
   )
 }
 
-export default page
+export default MyProfile
