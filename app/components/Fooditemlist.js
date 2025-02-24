@@ -13,7 +13,7 @@ const router=useRouter()
     const restodata=JSON.parse(localStorage.getItem("restaurantuser"))
     // console.log(restodata)
     const resto_id=restodata._id
-    let response=await fetch("http://localhost:3000/api/restaurant/foods/"+resto_id) //fetch food of specific id logged in
+    let response=await fetch("/api/restaurant/foods/"+resto_id) //fetch food of specific id logged in
     response=await response.json()
     if(response.success){
       // console.log(response)
